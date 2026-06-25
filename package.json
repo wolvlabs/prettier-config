@@ -1,0 +1,25 @@
+{
+  "name": "@wolvlabs/prettier-config",
+  "version": "1.0.0",
+  "description": "Shared Prettier config for wolvlabs projects",
+  "license": "MIT",
+  "type": "module",
+  "exports": {
+    ".": "./index.js",
+    "./tailwind": "./tailwind.js"
+  },
+  "files": [
+    "index.js",
+    "tailwind.js"
+  ],
+  "peerDependencies": {
+    "prettier": ">=3"
+  },
+  "dependencies": {
+    "prettier-plugin-tailwindcss": "^0.6.14"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "packageManager": "pnpm@11.8.0"
+}
